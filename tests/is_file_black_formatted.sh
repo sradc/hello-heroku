@@ -4,6 +4,6 @@
 # assert that `<file text> == <file text formatted with Black>`
 
 if [ "$(cat $1)" != "$(black -q - < $1)" ]; then
-  echo "File $1 is not black formatted."
+  echo "File $1 is not Black formatted."
   exit 1
 fi
