@@ -20,7 +20,7 @@ fi
 
 printf "\n\n-- Running pytest tests.\n"
 python -m pytest
-exit_code
+exit_code=$?
 echo  "-- exit code $exit_code"
 if [ $exit_code -ne 0 ]; then
      echo "Test failed."
