@@ -1,11 +1,9 @@
 # Heroku "Hello, World!", with Flask
 
-A "Hello, World!" [Heroku](https://www.heroku.com/) app, written in [Python](https://github.com/python), using [Flask](https://github.com/pallets/flask/). Automatically deployed by Heroku when changes pushed to `main` pass the tests (carried out by [GitHub Actions](https://docs.github.com/en/actions)).
+A "Hello, World!" [Heroku](https://www.heroku.com/) app, written in [Python](https://github.com/python), using [Flask](https://github.com/pallets/flask/). Automatically deployed by Heroku when changes pushed to `main` pass the tests (carried out by [GitHub Actions](https://docs.github.com/en/actions), see [here](https://devcenter.heroku.com/articles/github-integration#enabling-github-integration) for Heroku set up).
 
 - [Web page of this app (public).](https://sradc-hello-heroku.herokuapp.com/)
 - [Project page of this app on Heroku (private).](https://dashboard.heroku.com/apps/sradc-hello-heroku/)
-
-Heroku is [set up](https://devcenter.heroku.com/articles/github-integration#enabling-github-integration) to deploy the project when changes are pushed to the `main` GitHub branch, if the GitHub Actions tests pass.
 
 # Installation
 
