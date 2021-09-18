@@ -4,6 +4,8 @@ HELLO_WORLD_MARKUP = "<h1>Hello, World!</h1>"
 
 app = Flask(__name__)
 
+print(bar)
+
 
 @app.route("/")
 def index():
