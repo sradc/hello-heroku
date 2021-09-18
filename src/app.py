@@ -1,7 +1,10 @@
 from flask import Flask
 
-app= Flask(__name__)
+HELLO_WORLD_MARKUP = "<h1>Hello, World!</h1>"
 
-@app.route('/')
+app = Flask(__name__)
+
+
+@app.route("/")
 def index():
-  return "<h1>Hello, World!</h1>"
+    return HELLO_WORLD_MARKUP
