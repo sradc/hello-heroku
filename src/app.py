@@ -7,4 +7,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return HELLO_WORLD_MARKUP
+    return HELLO_WORLD_MARKUP + "this string should not be there."
